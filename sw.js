@@ -43,11 +43,11 @@ const appShellFiles = [
 '/assets/stylesheets/main.1d29e8d0.min.css.map',
 '/assets/stylesheets/palette.cbb835fc.min.css',
 '/assets/stylesheets/palette.cbb835fc.min.css.map',
-'/Brentano/index.html',
-'/Duns Scotus/index.html',
 '/img/souvenir.PNG',
-'/ref/Thomas von Aquin. Über die Herrschaft der Fürsten. Reclam - PDF Kostenfreier Download.pdf',
 '/search/search_index.json',
+'/Seite 1/index.html',
+'/Seite 2/index.html',
+
 ];
 
 // Installing Service Worker
