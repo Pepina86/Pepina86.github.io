@@ -8,6 +8,7 @@ const appShellFiles = [
 '/js13kpwa.webmanifest',
 '/sitemap.xml',
 '/sitemap.xml.gz',
+'/Albertus/index.html',
 '/assets/images/favicon.png',
 '/assets/javascripts/bundle.6c7ad80a.min.js',
 '/assets/javascripts/bundle.6c7ad80a.min.js.map',
@@ -43,11 +44,14 @@ const appShellFiles = [
 '/assets/stylesheets/main.1d29e8d0.min.css.map',
 '/assets/stylesheets/palette.cbb835fc.min.css',
 '/assets/stylesheets/palette.cbb835fc.min.css.map',
-'/img/souvenir.PNG',
+'/Brentano_Einführung/index.html',
+'/Brentano_Psychologie vom empirischen Standpunkte/index.html',
+'/Brentano_Willen/index.html',
+'/Das Erhabene/index.html',
+'/EinführungPhän/index.html',
+'/Ockham/index.html',
+'/Scotus/index.html',
 '/search/search_index.json',
-'/Seite 1/index.html',
-'/Seite 2/index.html',
-
 ];
 
 // Installing Service Worker
