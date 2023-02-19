@@ -12,7 +12,6 @@ const appShellFiles = [
 '/._.DS_Store',
 '/._icon.png',
 '/._Skulptur.jpg',
-'/Allgmein_Mittelalter',
 '/icon.png',
 '/Skulptur.jpg',
 '/aesthetics/Das Erhabene.html',
@@ -51,10 +50,6 @@ const appShellFiles = [
 '/assets/stylesheets/main.50e68009.min.css.map',
 '/assets/stylesheets/palette.e6a45f82.min.css',
 '/assets/stylesheets/palette.e6a45f82.min.css.map',
-'/github/.DS_Store',
-'/github/._.DS_Store',
-'/github/Pepina86.github.io/.DS_Store',
-'/github/Pepina86.github.io/._.DS_Store',
 '/media/._brentano.png',
 '/media/._mittelalter.jpeg',
 '/media/brentano.png',
@@ -94,7 +89,8 @@ const appShellFiles = [
 '/phenomenology/media/image3.png',
 '/phenomenology/media/image4.png',
 '/phenomenology/media/image5.png',
-'/search/search_index.json'];
+'/search/search_index.json',
+];
 
 // Installing Service Worker
 self.addEventListener('install', (e) => {
