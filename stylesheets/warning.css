@@ -1,0 +1,19 @@
+:root {
+  --md-admonition-icon--warning: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 20.93"><path d="M27.74,23.39,16.39,3.73a.67.67,0,0,0-.56-.32.67.67,0,0,0-.55.32L3.92,23.39a.61.61,0,0,0,0,.64.64.64,0,0,0,.56.32H27.19a.65.65,0,0,0,.56-.32A.64.64,0,0,0,27.74,23.39ZM15.84,10.15a1.51,1.51,0,0,1,1.49,1.52h0L16.89,17c-.08.69-.15,1.09-.43,1.27a1.5,1.5,0,0,1-1.22,0c-.28-.19-.36-.58-.44-1.27l-.43-5.33A1.5,1.5,0,0,1,15.84,10.15Zm0,12.16a1.52,1.52,0,1,1,1.51-1.52,1.52,1.52,0,0,1-1.51,1.52Z" transform="translate(-3.83 -3.41)"/></svg>')}
+  .md-typeset .admonition.warning,
+  .md-typeset details.warning {
+    border-color:#ff7900;
+  }
+  .md-typeset .warning > .admonition-title,
+  .md-typeset .warning > summary {
+    background-color: rgb(255,121,0,1);
+    border-color:#ff7900;
+    color:black;
+  }
+  .md-typeset .warning > .admonition-title::before,
+  .md-typeset .warning > summary::before {
+    background-color: black;
+    -webkit-mask-image: var(--md-admonition-icon--warning);
+            mask-image: var(--md-admonition-icon--warning);
+}
+  

@@ -1,0 +1,28 @@
+thead {
+    background-color: var(--md-primary-fg-color);
+    color:white;
+}
+
+
+[data-md-color-scheme="slate"] th {
+  color: black; 
+}
+
+th, td {
+  border: 1px solid var(--md-typeset-table-color);
+  border-spacing: 0;
+  border-bottom: none;
+  border-left: none;
+  border-top: none;
+  column-width: auto;
+}
+
+.md-typeset__table {
+  min-width: 100%;
+  table-layout: fixed;
+}
+
+.md-typeset table:not([class]) {
+  display: table;
+}
+
